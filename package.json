@@ -1,0 +1,21 @@
+{
+  "name": "gpt-file-checker",
+  "version": "1.0.0",
+  "description": "GPT File Checker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hayabusa58",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "fs": "^0.0.1-security",
+    "openai": "^4.53.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12"
+  }
+}
