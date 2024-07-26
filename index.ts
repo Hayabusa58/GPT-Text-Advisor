@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as chokidar from "chokidar";
 import OpenAI from 'openai';
 
-const filePath: string = './test.txt';
+const filePath: any = process.env.FILEPATH;
 // ToDo: keyとorgのundefinedチェックを追加する
 const organization: any = process.env.OPENAI_ORGNIZATION;
 const apiKey: any = process.env.OPENAI_APIKEY;
